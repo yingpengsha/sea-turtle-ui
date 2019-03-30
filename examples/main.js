@@ -3,6 +3,10 @@ import App from './App.vue';
 import router from './router';
 import store from './store';
 
+import SeaTurtleUI from '../packages';
+
+Vue.use(SeaTurtleUI);
+
 Vue.config.productionTip = false;
 
 new Vue({

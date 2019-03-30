@@ -1,29 +1,22 @@
 # sea-turtle-ui
 
-## Project setup
+基于 vue-cli3 的 UI 组件库
+
+## Install
 ```
-yarn install
+npm install sea-turtle-ui -S
 ```
 
-### Compiles and hot-reloads for development
+### Usage
 ```
-yarn run serve
+import Vue from "vue"
+import SeaTurtleUI from 'sea-turtle-ui'
+import 'sea-turtle-ui/lib/sea-turtle-ui.css'
+
+Vue.use(SeaTurtleUI)
 ```
 
-### Compiles and minifies for production
+### 在项目中使用
 ```
-yarn run build
+<xr-test></xr-test>
 ```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
